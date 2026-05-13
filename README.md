@@ -12,14 +12,14 @@ This project aims to build a machine learning model to predict the likelihood of
  
  1.Data Exploration & Analysis:Understanding data dimensions (df.shape, df.info()), statistical overview (df.describe()), and plotting correlations using Heatmaps.
  
- 2. Feature Engineering :
+2. Feature Engineering :
 
-   1-Dropping unneeded columns like id.
+     1-Dropping unneeded columns like id.
+       
+     2-Converting categorical features into numerical format via pd.get_dummies().
      
-   2-Converting categorical features into numerical format via pd.get_dummies().
-   
-   3-Normalizing data via StandardScaler.
+     3-Normalizing data via StandardScaler.
   
- 5. Handling Class Imbalance :Since the dataset has a very low percentage of stroke cases, SMOTETomek was utilized to synthetically generate minority class samples and clean noisy data boundaries.
+3. Handling Class Imbalance :Since the dataset has a very low percentage of stroke cases, SMOTETomek was utilized to synthetically generate minority class samples and clean noisy data boundaries.
  
- 6. Model Training & Evaluation :Splitting data into 80% training and 20% testing sets using stratified splitting, making predictions, and generating the Confusion Matrix.
+4. Model Training & Evaluation :Splitting data into 80% training and 20% testing sets using stratified splitting, making predictions, and generating the Confusion Matrix.
