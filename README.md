@@ -18,6 +18,7 @@ This project aims to build a machine learning model to predict the likelihood of
     Converting categorical features into numerical format via pd.get_dummies().
     
     Normalizing data via StandardScaler.
+    
 3.Handling Class Imbalance :Since the dataset has a very low percentage of stroke cases, SMOTETomek was utilized to synthetically generate minority class samples and clean noisy data boundaries.
 
   4.Model Training & Evaluation :plitting data into 80% training and 20% testing sets using stratified splitting, making predictions, and generating the Confusion Matrix.
