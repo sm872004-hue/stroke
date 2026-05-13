@@ -8,13 +8,14 @@ This project aims to build a machine learning model to predict the likelihood of
  Handling Class Imbalance: Applied SMOTETomek to balance the dataset and avoid model bias.
  Model Evaluation: Detailed performance analysis using Classification Reports and Heatmap Confusion Matrices.
  
- 📈 Project Workflow 
+ 📈 Project Workflow :
+ 
  1.Data Exploration & Analysis:Understanding data dimensions (df.shape, df.info()), statistical overview (df.describe()), and plotting correlations using Heatmaps.
  
  2. Feature Engineering :
-  Dropping unneeded columns like id.
-  Converting categorical features into numerical format via pd.get_dummies().
-  Normalizing data via StandardScaler.
+  1-Dropping unneeded columns like id.
+  2-Converting categorical features into numerical format via pd.get_dummies().
+  3-Normalizing data via StandardScaler.
  
  4. Handling Class Imbalance :Since the dataset has a very low percentage of stroke cases, SMOTETomek was utilized to synthetically generate minority class samples and clean noisy data boundaries.
  
