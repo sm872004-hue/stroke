@@ -10,7 +10,7 @@ This project aims to build a machine learning model to predict the likelihood of
  
  📈 Project Workflow :
  
- 1.Data Exploration & Analysis:Understanding data dimensions (df.shape, df.info()), statistical overview (df.describe()), and plotting correlations using Heatmaps.
+  1.Data Exploration & Analysis:Understanding data dimensions (df.shape, df.info()), statistical overview (df.describe()), and plotting correlations using Heatmaps.
  
 2. Feature Engineering :
 
